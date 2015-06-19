@@ -1,0 +1,25 @@
+Source: ermetris-magneto
+Section: boards
+Priority: extra
+XBSC-Group: Ermetris
+XBSC-Family: pic32
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: ermetris-magneto
+Section: boards
+XBSC-Group: Ermetris
+Homepage: http://www.ermetris.com/Ermetris/index.php/en/
+Architecture: all
+Depends: chipkit
+Description: Ermetris MAGNETO
+ The Magneto-1000 is a M2M gateway platform based on the Microchip PIC32
+ microcontroller, Ermetris developed a Single Board Computer (SBC) which
+ integrates Wireless and Wired functionality as Zigbee, WiFI, GSM/GPRS,
+ Ethernet, Can bus, Serial ports. Moreover the system allows you to have
+ tracking capability with GPS, Odometer, Gyroscope and accelerometer,
+ and 4 Digital Inputs , 4 Digital Outputs , 2 Analog Inputs. The system
+ configured properly can be a valid platform for mobile use (fleet
+ tracking, on board gateway and computer) and domotic/industrial use as
+ a M2M device with Digital/Anlog Input/Output capabilities.
